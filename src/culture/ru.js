@@ -45,28 +45,28 @@
 		"footerlabelnowarranty": "Без гарантий.",
 
 		// status html
-		"statuslabelcryptogood": "&#10004; Good!", //TODO: please translate
-		"statuslabelcryptogood1": "Your browser can generate cryptographically random keys using window.crypto.getRandomValues", //TODO: please translate
+		"statuslabelcryptogood": "&#10004; Отлично!",
+		"statuslabelcryptogood1": "Ваш браузер может генерировать криптографически случайные ключи с помощью window.crypto.getRandomValues",
 		"statusokcryptogood": "OK", //TODO: please translate
-		"statuslabelcryptobad": "&times; Oh no!", //TODO: please translate
-		"statuslabelcryptobad1": "Your browser does NOT support window.crypto.getRandomValues. You should use a more modern browser with this generator to increase the security of the keys generated.",
+		"statuslabelcryptobad": "&times; О нет!",
+		"statuslabelcryptobad1": "Ваш браузер НЕ поддерживает window.crypto.getRandomValues. Вы должны использовать современный браузер с этим генератором чтобы увеличить безопасность сгенерированных ключей.",
 		"statusokcryptobad": "OK", //TODO: please translate
-		"statuslabelunittestsgood": "&#10004; Good!", //TODO: please translate
-		"statuslabelunittestsgood1": "All synchronous unit tests passed.", //TODO: please translate
+		"statuslabelunittestsgood": "&#10004; Отлично!",
+		"statuslabelunittestsgood1": "Все синхронные юнит-тесты пройдены успешно.",
 		"statusokunittestsgood": "OK", //TODO: please translate
-		"statuslabelunittestsbad": "&times; Oh no!", //TODO: please translate
-		"statuslabelunittestsbad1": "Some synchronous unit tests DID NOT pass. You should find another browser to use with this generator.", //TODO: please translate
+		"statuslabelunittestsbad": "&times; О нет!",
+		"statuslabelunittestsbad1": "Некоторые синхронные юнит-тесты НЕ прошли. Рекомендуется использовать другой браузер с этим генератором.",
 		"statusokunittestsbad": "OK", //TODO: please translate
-		"statuslabelprotocolgood": "&#10004; Good!", //TODO: please translate
-		"statuslabelprotocolgood1": "You are running this generator from your local computer. <br />Tip: Double check you are offline by trying ", //TODO: please translate
+		"statuslabelprotocolgood": "&#10004; Отлично!",
+		"statuslabelprotocolgood1": "Вы используете этот генератор с локального компьютера. <br />Совет: Убедитесь, что вы в оффлайн-режиме, попробовав ",
 		"statusokprotocolgood": "OK", //TODO: please translate
-		"statuslabelprotocolbad": "&#9888; Think twice!", //TODO: please translate
-		"statuslabelprotocolbad1": "You appear to be running this generator online from a live website. For valuable wallets it is recommended to", //TODO: please translate
-		"statuslabelprotocolbad2": "download", //TODO: please translate
-		"statuslabelprotocolbad3": "the zip file from GitHub and run this generator offline as a local html file.", //TODO: please translate
+		"statuslabelprotocolbad": "&#9888; Подумайте дважды!",
+		"statuslabelprotocolbad1": "Похоже, вы запускаете этот генератор онлайн с живого веб-сайта. Для ценных кошельков рекомендуется",
+		"statuslabelprotocolbad2": "скачать",
+		"statuslabelprotocolbad3": "zip-файл с GitHub и запускать этот генератор оффлайн как локальный HTML-файл.",
 		"statusokprotocolbad": "OK", //TODO: please translate
-		"statuslabelkeypool1": "This is a log of all the Dash Addresses and Private Keys you generated during your current session. Reloading the page will create a new session.", //TODO: please translate
-		"statuskeypoolrefresh": "Refresh", //TODO: please translate
+		"statuslabelkeypool1": "Это журнал всех адресов Dash и приватных ключей, которые вы сгенерировали за текущую сессию. Перезагрузка страницы создаст новую сессию.",
+		"statuskeypoolrefresh": "Обновить",
 		"statusokkeypool": "OK", //TODO: please translate
 
 		// single wallet html
@@ -157,7 +157,7 @@
 		"detaillabelprivmini": "Приватный Ключ в формате мини (22, 26 или 30 символов, начинается с 'S'):",
 		"detaillabelpassphrase": "Парольная фраза BIP38",
 		"detailbip38decryptbutton": "Расшифровать BIP38",
-		"detailbip38encryptbutton": "Encrypt BIP38", //TODO: please translate
+		"detailbip38encryptbutton": "Зашифровать BIP38",
 		"detaillabelq1": "Как сделать кошелек используя игральные кости? Что такое B6?",
 		"detaila1": "Очень важно понимать, что при генерации Dash кошелька используются действительно случайные числа. Физическая случайность лучше компьютерной псевдо-случайности. Самым простым способом генерации физической случайности является игральная кость. Для генерации Приватного Ключа Dash кошелька Вам нужна игральная кость с шестью сторонами, которую необходимо бросить 99 раз. Необходимо записать каждую цифру, выпавшую на игральной кости. Итоговый результат необходимо записать в таком виде: 1=1, 2=2, 3=3, 4=4, 5=5, 6=0. Таким образом Вы запишите большое случайное число - Ваш Приватный Ключ, в формате B6 или Base6. После этого Вы можете ввести 99 символов приватного ключа в формате Base6 в текстовое поле вверху страницы и получить детальную информацию о кошельке. После этого Вы сможете увидеть адрес Dash кошелька соответствующий полученному приватному ключу. Вам потребуется сделать запись приватного ключа в формате для импорта, так как он наиболее часто используется."
 	};
