@@ -20,17 +20,17 @@ generated in a web browser.
 
 ## Download
 
-After download you should veryfy hashes and signature
+After download you should verify hashes and signature:
 
-    ```bash
-    gpg --decrypt paper.dash.org.html.sha256sum.asc  | sha256sum --check
-    ```
+```bash
+gpg --decrypt paper.dash.org.html.sha256sum.asc  | sha256sum --check
+```
 
 ## Release
 
-1. Do installation steps
+1. Do installation steps.
 
-2. Update sha sums
+2. Update sha sums:
 
     ```bash
     sha256sum paper.dash.org.html > paper.dash.org.html.sha256sum
