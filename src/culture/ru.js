@@ -29,7 +29,7 @@
 		"bulkwallet": "Несколько кошельков",
 		"brainwallet": "Умный кошелёк",
 		"vanitywallet": "Персональный кошелёк",
-		"splitwallet": "Split Wallet", //TODO: please translate
+		"splitwallet": "Кошелёк с разделённым управлением",
 		"detailwallet": "Детали кошелька",
 
 		// footer html
@@ -47,27 +47,27 @@
 		// status html
 		"statuslabelcryptogood": "&#10004; Отлично!",
 		"statuslabelcryptogood1": "Ваш браузер может генерировать криптографически случайные ключи с помощью window.crypto.getRandomValues",
-		"statusokcryptogood": "OK", //TODO: please translate
+		"statusokcryptogood": "OK",
 		"statuslabelcryptobad": "&times; О нет!",
 		"statuslabelcryptobad1": "Ваш браузер НЕ поддерживает window.crypto.getRandomValues. Вы должны использовать современный браузер с этим генератором чтобы увеличить безопасность сгенерированных ключей.",
-		"statusokcryptobad": "OK", //TODO: please translate
+		"statusokcryptobad": "OK",
 		"statuslabelunittestsgood": "&#10004; Отлично!",
 		"statuslabelunittestsgood1": "Все синхронные юнит-тесты пройдены успешно.",
-		"statusokunittestsgood": "OK", //TODO: please translate
+		"statusokunittestsgood": "OK",
 		"statuslabelunittestsbad": "&times; О нет!",
 		"statuslabelunittestsbad1": "Некоторые синхронные юнит-тесты НЕ прошли. Рекомендуется использовать другой браузер с этим генератором.",
-		"statusokunittestsbad": "OK", //TODO: please translate
+		"statusokunittestsbad": "OK",
 		"statuslabelprotocolgood": "&#10004; Отлично!",
 		"statuslabelprotocolgood1": "Вы используете этот генератор с локального компьютера. <br />Совет: Убедитесь, что вы в оффлайн-режиме, попробовав ",
-		"statusokprotocolgood": "OK", //TODO: please translate
+		"statusokprotocolgood": "OK",
 		"statuslabelprotocolbad": "&#9888; Подумайте дважды!",
 		"statuslabelprotocolbad1": "Похоже, вы запускаете этот генератор онлайн с живого веб-сайта. Для ценных кошельков рекомендуется",
 		"statuslabelprotocolbad2": "скачать",
 		"statuslabelprotocolbad3": "zip-файл с GitHub и запускать этот генератор оффлайн как локальный HTML-файл.",
-		"statusokprotocolbad": "OK", //TODO: please translate
+		"statusokprotocolbad": "OK",
 		"statuslabelkeypool1": "Это журнал всех адресов Dash и приватных ключей, которые вы сгенерировали за текущую сессию. Перезагрузка страницы создаст новую сессию.",
 		"statuskeypoolrefresh": "Обновить",
-		"statusokkeypool": "OK", //TODO: please translate
+		"statusokkeypool": "OK",
 
 		// single wallet html
 		"newaddress": "Сгенерировать новый адрес",

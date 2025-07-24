@@ -9411,7 +9411,7 @@ ninja.foreachSerialized = function (collection, whatToDo, onComplete) {
 		"bulkwallet": "Несколько кошельков",
 		"brainwallet": "Умный кошелёк",
 		"vanitywallet": "Персональный кошелёк",
-		"splitwallet": "Split Wallet", //TODO: please translate
+		"splitwallet": "Кошелёк с разделённым управлением",
 		"detailwallet": "Детали кошелька",
 
 		// footer html
@@ -9429,27 +9429,27 @@ ninja.foreachSerialized = function (collection, whatToDo, onComplete) {
 		// status html
 		"statuslabelcryptogood": "&#10004; Отлично!",
 		"statuslabelcryptogood1": "Ваш браузер может генерировать криптографически случайные ключи с помощью window.crypto.getRandomValues",
-		"statusokcryptogood": "OK", //TODO: please translate
+		"statusokcryptogood": "OK",
 		"statuslabelcryptobad": "&times; О нет!",
 		"statuslabelcryptobad1": "Ваш браузер НЕ поддерживает window.crypto.getRandomValues. Вы должны использовать современный браузер с этим генератором чтобы увеличить безопасность сгенерированных ключей.",
-		"statusokcryptobad": "OK", //TODO: please translate
+		"statusokcryptobad": "OK",
 		"statuslabelunittestsgood": "&#10004; Отлично!",
 		"statuslabelunittestsgood1": "Все синхронные юнит-тесты пройдены успешно.",
-		"statusokunittestsgood": "OK", //TODO: please translate
+		"statusokunittestsgood": "OK",
 		"statuslabelunittestsbad": "&times; О нет!",
 		"statuslabelunittestsbad1": "Некоторые синхронные юнит-тесты НЕ прошли. Рекомендуется использовать другой браузер с этим генератором.",
-		"statusokunittestsbad": "OK", //TODO: please translate
+		"statusokunittestsbad": "OK",
 		"statuslabelprotocolgood": "&#10004; Отлично!",
 		"statuslabelprotocolgood1": "Вы используете этот генератор с локального компьютера. <br />Совет: Убедитесь, что вы в оффлайн-режиме, попробовав ",
-		"statusokprotocolgood": "OK", //TODO: please translate
+		"statusokprotocolgood": "OK",
 		"statuslabelprotocolbad": "&#9888; Подумайте дважды!",
 		"statuslabelprotocolbad1": "Похоже, вы запускаете этот генератор онлайн с живого веб-сайта. Для ценных кошельков рекомендуется",
 		"statuslabelprotocolbad2": "скачать",
 		"statuslabelprotocolbad3": "zip-файл с GitHub и запускать этот генератор оффлайн как локальный HTML-файл.",
-		"statusokprotocolbad": "OK", //TODO: please translate
+		"statusokprotocolbad": "OK",
 		"statuslabelkeypool1": "Это журнал всех адресов Dash и приватных ключей, которые вы сгенерировали за текущую сессию. Перезагрузка страницы создаст новую сессию.",
 		"statuskeypoolrefresh": "Обновить",
-		"statusokkeypool": "OK", //TODO: please translate
+		"statusokkeypool": "OK",
 
 		// single wallet html
 		"newaddress": "Сгенерировать новый адрес",
@@ -9481,7 +9481,7 @@ ninja.foreachSerialized = function (collection, whatToDo, onComplete) {
 		"bulklabelcsv": "Значения разделённые запятой:",
 		"bulklabelformat": "Порядковый номер, Адрес, Приватный Ключ (импорт)",
 		"bulklabelq1": "Почему нужно использовать несколько кошельков, чтобы принимать Dash на Вашем сайте?",
-		"bulka1": "Традиционный подход к приёму Dash на Вашем сайте - это установка оффициального демона клиента Dash ('dashd'). Большинство хостингов для вебсайтов не поддерживают установку демона Dash. Также, запуск демона клиента Dash на Вашем веб-сервере означает, что Вы храните приватные ключи на этом сервере и они могут быть украдены, если Ваш веб-сервер подвергнется взлому. При использовании нескольких кошельков Вы можете выгрузить только адреса Dash на Ваш сервер, в то время как приватные ключи останутся в секрете. В этом случае Вам не следует беспокоиться того, что Ваш веб-сервер будет взломан и Dash кошелёк будет украден.",
+		"bulka1": "Традиционный подход к приёму Dash на Вашем сайте - это установка официального демона клиента Dash ('dashd'). Большинство хостингов для вебсайтов не поддерживают установку демона Dash. Также, запуск демона клиента Dash на Вашем веб-сервере означает, что Вы храните приватные ключи на этом сервере и они могут быть украдены, если Ваш веб-сервер подвергнется взлому. При использовании нескольких кошельков Вы можете выгрузить только адреса Dash на Ваш сервер, в то время как приватные ключи останутся в секрете. В этом случае Вам не следует беспокоиться того, что Ваш веб-сервер будет взломан и Dash кошелёк будет украден.",
 		"bulklabelq2": "Как использовать несколько кошельков, чтобы принимать Dash на Вашем сайте?",
 		"bulklabela2li1": "Используйте вкладку 'Несколько кошельков', для того чтобы сгенерировать большое количество адресов Dash (10.000+). Скопируйте и вставьте сгенерированные идентификаторы в виде списка (в формате CSV) в секретный файл на вашем компьютере. Сделайте резервную копию созданного файла и сохраните её в надежном месте. ",
 		"bulklabela2li2": "Импортируйте Dash адреса в базу данных или иное хранилище Вашего веб-сервера. (Не размещайте приватные ключи кошелька на Вашем веб-сервере, в противном случае Вы рискуете потерять свои Dash. Своим клиентам Вам достаточно предоставить Dash адрес.)",
