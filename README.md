@@ -23,6 +23,14 @@ generated in a web browser.
 After download you should verify hashes and signature:
 
 ```bash
+# Download both files first:
+# - paper.dash.org.html
+# - paper.dash.org.html.sha256sum.asc
+
+# Import the maintainer’s public key (once per machine)
+gpg --keyserver hkps://keys.openpgp.org --recv-keys <MAINTAINER_KEY_FP>
+
+# Verify the signature and hash in one command:
 gpg --decrypt paper.dash.org.html.sha256sum.asc  | sha256sum --check
 ```
 
