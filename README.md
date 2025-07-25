@@ -18,6 +18,32 @@ generated in a web browser.
     npm run build
     ```
 
+## Download
+
+After download you should verify hashes and signature:
+
+```bash
+# Download both files first:
+# - paper.dash.org.html
+# - paper.dash.org.html.sha256sum.asc
+
+# Import the maintainer’s public key (once per machine)
+gpg --keyserver hkps://keys.openpgp.org --recv-keys <MAINTAINER_KEY_FP>
+
+# Verify the signature and hash in one command:
+gpg --decrypt paper.dash.org.html.sha256sum.asc  | sha256sum --check
+```
+
+## Release
+
+1. Do installation steps.
+
+2. Update sha sums:
+
+    ```bash
+    sha256sum paper.dash.org.html > paper.dash.org.html.sha256sum
+    gpg --clearsign --digest-algo=SHA256 paper.dash.org.html.sha256sum
+    ```
 
 ## Attribution
 
